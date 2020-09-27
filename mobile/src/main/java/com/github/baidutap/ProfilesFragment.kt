@@ -76,7 +76,7 @@ class ProfilesFragment : ToolbarFragment(), Toolbar.OnMenuItemClickListener {
          */
         var instance: ProfilesFragment? = null
 
-        private const val KEY_URL = "com.github.shadowsocks.QRCodeDialog.KEY_URL"
+        private const val KEY_URL = "com.github.baidutap.QRCodeDialog.KEY_URL"
 
         private val iso88591 = StandardCharsets.ISO_8859_1.newEncoder()
     }

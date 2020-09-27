@@ -1,6 +1,6 @@
-package com.github.shadowsocks.aidl;
+package com.github.baidutap.aidl;
 
-import com.github.shadowsocks.aidl.TrafficStats;
+import com.github.baidutap.aidl.TrafficStats;
 
 oneway interface IShadowsocksServiceCallback {
   void stateChanged(int state, String profileName, String msg);

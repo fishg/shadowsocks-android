@@ -38,10 +38,10 @@ import androidx.core.os.bundleOf
  *    ...
  *    &lt;application&gt;
  *        ...
- *        &lt;provider android:name="com.github.shadowsocks.$PLUGIN_ID.BinaryProvider"
- *                     android:authorities="com.github.shadowsocks.plugin.$PLUGIN_ID.BinaryProvider"&gt;
+ *        &lt;provider android:name="com.github.baidutap.$PLUGIN_ID.BinaryProvider"
+ *                     android:authorities="com.github.baidutap.plugin.$PLUGIN_ID.BinaryProvider"&gt;
  *            &lt;intent-filter&gt;
- *                &lt;category android:name="com.github.shadowsocks.plugin.ACTION_NATIVE_PLUGIN" /&gt;
+ *                &lt;category android:name="com.github.baidutap.plugin.ACTION_NATIVE_PLUGIN" /&gt;
  *            &lt;/intent-filter&gt;
  *        &lt;/provider&gt;
  *        ...

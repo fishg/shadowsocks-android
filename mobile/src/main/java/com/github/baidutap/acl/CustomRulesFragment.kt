@@ -68,9 +68,9 @@ class CustomRulesFragment : ToolbarFragment(), Toolbar.OnMenuItemClickListener, 
         private const val REQUEST_CODE_ADD = 1
         private const val REQUEST_CODE_EDIT = 2
 
-        private const val SELECTED_SUBNETS = "com.github.shadowsocks.acl.CustomRulesFragment.SELECTED_SUBNETS"
-        private const val SELECTED_HOSTNAMES = "com.github.shadowsocks.acl.CustomRulesFragment.SELECTED_HOSTNAMES"
-        private const val SELECTED_URLS = "com.github.shadowsocks.acl.CustomRulesFragment.SELECTED_URLS"
+        private const val SELECTED_SUBNETS = "com.github.baidutap.acl.CustomRulesFragment.SELECTED_SUBNETS"
+        private const val SELECTED_HOSTNAMES = "com.github.baidutap.acl.CustomRulesFragment.SELECTED_HOSTNAMES"
+        private const val SELECTED_URLS = "com.github.baidutap.acl.CustomRulesFragment.SELECTED_URLS"
 
         // unescaped lol: (?<=^(?:\(\^\|\\\.\)|\^\(\.\*\\\.\)\?|\(\?:\^\|\\\.\))).*(?=\$$)
         private val domainPattern =

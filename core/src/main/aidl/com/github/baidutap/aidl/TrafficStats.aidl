@@ -1,3 +1,3 @@
-package com.github.shadowsocks.aidl;
+package com.github.baidutap.aidl;
 
 parcelable TrafficStats;

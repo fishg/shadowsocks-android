@@ -9,7 +9,7 @@ plugins {
 
 setupApp()
 
-android.defaultConfig.applicationId = "com.github.shadowsocks.tv"
+android.defaultConfig.applicationId = "com.github.baidutap.tv"
 
 dependencies {
     implementation("androidx.leanback:leanback-preference:1.1.0-alpha04")

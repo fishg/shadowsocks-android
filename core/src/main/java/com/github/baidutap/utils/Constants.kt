@@ -75,10 +75,10 @@ object Key {
 }
 
 object Action {
-    const val SERVICE = "com.github.shadowsocks.SERVICE"
-    const val CLOSE = "com.github.shadowsocks.CLOSE"
-    const val RELOAD = "com.github.shadowsocks.RELOAD"
-    const val ABORT = "com.github.shadowsocks.ABORT"
+    const val SERVICE = "com.github.baidutap.SERVICE"
+    const val CLOSE = "com.github.baidutap.CLOSE"
+    const val RELOAD = "com.github.baidutap.RELOAD"
+    const val ABORT = "com.github.baidutap.ABORT"
 
-    const val EXTRA_PROFILE_ID = "com.github.shadowsocks.EXTRA_PROFILE_ID"
+    const val EXTRA_PROFILE_ID = "com.github.baidutap.EXTRA_PROFILE_ID"
 }
